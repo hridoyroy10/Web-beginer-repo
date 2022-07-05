@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    padding-top: 12%;
+    padding-bottom: 56px;
+}
+.top-benar-bg {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(4,9,30,0.7),rgba(4,9,30,0.7) ),url(../img/donation4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home {
+    text-align: center;
+
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 900;
+}
+.home p {
+    color: #b1b1b1;
+    font-size: 15px;
+    line-height: 60px;
+}
+button {
+    background: #d70c0cc9;
+    padding: 17px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 2%;
+}
+a.Donate-btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ----Donate-Today-css--- */
+
+.donate-today  {
+    text-align: center;
+}
+
+.donate-today h1 {
+    color: #222;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.donate-today p {
+    color: #b1b1b1;
+    font-size: 15px;
+    line-height: 22px;
+}
+ .amunt {
+    width: 12%;
+    height: 60px;
+    background: gray;
+    color: #fff;
+    display: inline-block;
+    margin: 11px;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-top: 5%;
+    padding: 21px;
+}
+/* ------Donate-Plan css------ */
+.donate-headlines {
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+}
+.donate-headlines h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.donate-headlines p {
+    font-size: 14px;
+    color: #222;
+}
+.service-item{
+    display: flex;
+    padding: 0px 8% 0px 8%;
+   
+}
+.service-item h2{
+    padding: 15px 0px 15px 0px;
+}
+
+.food {
+    background: #e6a8b3;
+    padding: 39px 20px 36px 15px;
+    border-radius: 8px;
+    font-size: 19px;
+    margin: 15px;
+
+}
+.Shelter{
+    background: #e1e189;
+    padding: 39px 20px 36px 15px;
+    border-radius: 8px;
+    font-size: 19px;margin: 15px;
+
+}
+.Education{
+    background: #55879a;
+    padding: 39px 20px 36px 15px;
+    border-radius: 8px;
+    font-size: 19px;
+    margin: 15px;
+}
+
+/* ----Blog----- */
+.haf-width {
+    width: 45%;
+    float: left;
+    padding-left: 6%;
+}
+.haf-width h1 {
+    font-size: 47px;
+    font-weight: 700;
+
+}
+.haf-width p {
+    font-size: 17px;
+    font-weight: 100;
+    color: #605d5d;
+}
+.haf-width img {
+    width: 100%;
+}
