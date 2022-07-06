@@ -4,14 +4,26 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: 'Nunito', sans-serif;
-    font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
-section {
-    padding-top: 12%;
-    padding-bottom: 56px;
+a{
+    text-decoration: none;
+    color: #fff;
 }
+section {
+    padding-top: 7%;
+    padding-bottom: 22px;
+}
+button {
+    background: #d70c0cc9;
+    padding: 17px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 13px;
+}
+/* ----home---- */
 .top-benar-bg {
     height: 100vh;
     width: 100%;
@@ -21,71 +33,78 @@ section {
     background-size: cover;
     position: relative;
 }
-
 .home {
     text-align: center;
 
 }
-
 .home h1 {
     color: #fff;
     font-size: 65px;
     font-weight: 900;
 }
 .home p {
-    color: #b1b1b1;
+    color: #9b9999;
     font-size: 15px;
-    line-height: 60px;
+    line-height: 23px;
 }
-button {
-    background: #d70c0cc9;
-    padding: 17px;
-    border-radius: 7px;
-    border: none;
-    margin-top: 2%;
-}
-a.Donate-btn {
-    text-decoration: none;
-    color: #fff;
-}
-
 
 /* ----Donate-Today-css--- */
-
-.donate-today  {
+.donate-today{
     text-align: center;
 }
 
 .donate-today h1 {
     color: #222;
+    padding: 15px 0 15px 0;
     font-size: 65px;
     font-weight: 900;
 }
 
 .donate-today p {
     color: #b1b1b1;
+    padding: 15px 0;
     font-size: 15px;
     line-height: 22px;
 }
- .amunt {
+.amunt {
     width: 12%;
-    height: 60px;
+    height: 68px;
     background: gray;
     color: #fff;
+    border-radius: 6px;
     display: inline-block;
     margin: 11px;
+    padding: 17px 0px;
+    transition: .5s;
 }
-
+.amunt:hover{
+    background: #b51717;
+    color: #fff;
+}
+.amunt-active{
+    width: 12%;
+    height: 68px;
+    background: #ef4f4f;
+    border-radius: 6px;
+    border:1px solid #b51717;
+    color: #FFF;
+    display: inline-block;
+    padding: 17px 0px;
+    margin: 11px;
+}
 input[type="text"] {
     width: 50%;
     height: 100%;
     border: none;
-    text-align: center;
     border-bottom: 1px solid;
+    text-align: center;
     margin-top: 5%;
     padding: 21px;
 }
-/* ------Donate-Plan css------ */
+
+/* ----Donate-Today Css End---- */
+
+/* ------Donate-Plan Css Start------ */
 .donate-headlines {
     text-align: center;
     padding: 25px 0px 25px 0px;
@@ -93,10 +112,12 @@ input[type="text"] {
 .donate-headlines h1{
     font-size: 42px;
     font-weight: 700;
+    padding: 15px 0;
 }
 .donate-headlines p {
     font-size: 14px;
     color: #222;
+    padding: 12px 0;
 }
 .service-item{
     display: flex;
@@ -106,7 +127,11 @@ input[type="text"] {
 .service-item h2{
     padding: 15px 0px 15px 0px;
 }
-
+.service-item p {
+    font-size: 14px;
+    color: #222121;
+    line-height: 22px;
+}
 .food {
     background: #e6a8b3;
     padding: 39px 20px 36px 15px;
@@ -130,22 +155,76 @@ input[type="text"] {
     margin: 15px;
 }
 
-/* ----Blog----- */
-.haf-width {
-    width: 45%;
-    float: left;
-    padding-left: 6%;
+/* ------Donate-Plan Css End------ */
+.catagorij {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 15px 50px;
 }
-.haf-width h1 {
-    font-size: 47px;
-    font-weight: 700;
 
+.haf-width h1 {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0px;
 }
 .haf-width p {
-    font-size: 17px;
-    font-weight: 100;
-    color: #605d5d;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3e3d3d;
 }
 .haf-width img {
+    /* width: 65%; */
+    height: 60vh;
+}
+
+/* ----Contract Css Start----- */
+
+.contract-id {
+    text-align: center;
+}
+.contract-id h1 {
+    font-size: 44px;
+    font-weight: 900;
+    padding: 19px 0;
+}
+.contract-id p {
+    font-size: 13px;
+    color: gray;
+    padding: 12px 0;
+}
+
+.box {
+    background: aqua;
+    margin: 32px 15%;
+    padding: 22px 15px 5%;
+    border-radius: 5px;
+}
+.box input[type="text"] {
+    width: 50%;
+    height: 100%;
+    border: none;
+    margin-top: 5%;
+    text-align: left;
+    border-radius: 10px 0 0 10px;
+}
+.box button {
+    background: #d70c0cc9;
+    padding: 21px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+/* ----Contract Css End----- */
+
+.footer-1 {
+    text-align: center;
     width: 100%;
+    padding: 5% 0;
+    height: 37vh;
+    background: black;
+    color: #b51717;
+}
+.footer-1 p{
+    color: #5656f3;
 }
